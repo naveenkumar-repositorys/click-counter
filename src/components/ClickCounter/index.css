@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.body {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  width: 100%;
+  height: 100vh;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 500px;
+}
+.headingEl {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.headingElremaining {
+  align-content: center;
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 55px;
+  margin-top: 0px;
+}
+.spanEl {
+  color: #c20a72;
+}
+.paraEl {
+  align-content: center;
+  font-size: 25px;
+}
+.buttonEl {
+  align-content: center;
+  background-color: #007bff;
+  color: #ffff;
+  cursor: pointer;
+  outline: none;
+  width: 250px;
+  height: 60px;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    width: 80%;
+    height: 100vh;
+  }
+  .card-container {
+    width: 90%;
+  }
+  .headingEl {
+    text-align: center;
+    font-size: 40px;
+  }
+  .headingElremaining {
+    font-size: 40px;
+  }
+  .spanEl {
+  }
+  .paraEl {
+    text-align: center;
+    font-size: 18px;
+  }
+  .buttonEl {
+    width: 200px;
+    height: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .bg-container {
+    width: 100%;
+    height: 100vh;
+  }
+  .card-container {
+    width: 75%;
+  }
+  .headingEl {
+    text-align: center;
+    font-size: 55px;
+  }
+  .headingElremaining {
+    font-size: 55px;
+  }
+  .spanEl {
+    color: #c20a72;
+  }
+  .paraEl {
+    text-align: center;
+    font-size: 25px;
+  }
+  .buttonEl {
+    width: 250px;
+    height: 60px;
+  }
+}
